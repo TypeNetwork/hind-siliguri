@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
+      <map input="300" output="0"/>
+      <map input="400" output="21"/>
+      <map input="500" output="44"/>
+      <map input="600" output="70"/>
+      <map input="700" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="HindSiliguri-Light.ufo" name="Hind Siliguri Light" familyname="Hind Siliguri" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="HindSiliguri-Bold.ufo" name="Hind Siliguri Bold" familyname="Hind Siliguri" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Hind Siliguri Light" familyname="Hind Siliguri" stylename="Light" filename="instance_ufos/HindSiliguri-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict/>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hind Siliguri Regular" familyname="Hind Siliguri" stylename="Regular" filename="instance_ufos/HindSiliguri-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="21"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict/>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hind Siliguri Medium" familyname="Hind Siliguri" stylename="Medium" filename="instance_ufos/HindSiliguri-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="44"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict/>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hind Siliguri SemiBold" familyname="Hind Siliguri" stylename="SemiBold" filename="instance_ufos/HindSiliguri-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict/>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hind Siliguri Bold" familyname="Hind Siliguri" stylename="Bold" filename="instance_ufos/HindSiliguri-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict/>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>731EBDE8-0F2D-4E32-814F-AAFC41A14D25</key>
+        <dict>
+          <key>HV</key>
+          <integer>140</integer>
+        </dict>
+        <key>D864283E-EAB4-426F-8533-332F2D658CBA</key>
+        <dict>
+          <key>HV</key>
+          <integer>140</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>
